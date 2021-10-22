@@ -23,8 +23,9 @@ git pull --> for pulling the recent code from remote to local
 git push --> pushing a latest code into remote.
 git log --> for showing all the logs of the commits (lile date,modified by,commit name etc). 
 ls --> for showing the list of files in this repo.
-git branch --> for showing all the branches inside the repo has(local).
-git branch -a --> for showing all the branches including remote also.
+git branch --> for showing all the branches inside the repo has(local only).
+git branch -r --> for showing all the branches inside the repo has(remote only).
+git branch -a --> for showing all the branches inside the repo has(both local and remote).
 git branch <name> --> for creating new branch in local.
 git branch -m <oldname> <newname> --> for rename the branch locally.
 git checkout -b <new branch name> --> for creating new branch and switch on that branch.
