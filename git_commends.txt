@@ -46,3 +46,4 @@ git remote add origin <url> --> for setting our local repo to origin remote repo
 git pull --allow-unrelated-histories --> for merging two unrelated branches or repos.
 git fetch origin --> for fetching the recent changes in remote.
 git diff <branch> --> for showing the diffrence between two branches.
+git merge <branch> --> for merging two branches.
