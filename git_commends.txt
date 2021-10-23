@@ -2,6 +2,7 @@ git config --global user.name <name you want>  --> global for enrire repos in yo
 git config --global user.email <email id of cloud repo providder while register>
 git config --list --> for showing the configuration information.
 git clone <url> --> for cloning the remote repository.
+git clone <url> <folder name> --> for cloning the remote repo into the specified folder name.
 touch <filename with extention> --> for creating new file in this repository.
 git help --all or git help -a --> for showing all the commands and its descriptions.
 git <command> -help  for showing the desired command and its descriptions.
@@ -48,3 +49,5 @@ git pull --allow-unrelated-histories --> for merging two unrelated branches or r
 git fetch origin --> for fetching the recent changes in remote.
 git diff <branch> --> for showing the diffrence between two branches.
 git merge <branch> --> for merging two branches.
+git remote -v --> for viewing the remote.
+git remote rename origin <name> --> renaming the remote.git convention name is 'upstream' for fork.
