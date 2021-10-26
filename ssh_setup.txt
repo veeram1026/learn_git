@@ -10,3 +10,10 @@
 6. Enter passphare if you add before.\
 7. copy ssh public key 
     clip < </x/x/.ssh/id_rsa.pub>
+8. Then set those key to remote ssh.
+9. then test our connect exist via ssh by
+    --> ssh -T git@github.com
+
+hint : 
+    We can change origin form https to ssh by,
+    -->     
