@@ -1,0 +1,12 @@
+1. ssh key generation.
+    --> ssh-keygen -t rsa -b 4096 -C <github email>
+2. routing file directory to store ssh keys(public and private)
+3. Enter passphare if you need(for additional security).
+4. Connect ssh agrent
+    --> exec ssh-agent bash 
+    --> eval ssh-agent -s
+5. Add ssh key to ssh agent
+    --> ssh-add </x/x/.ssh/id_rsa>
+6. Enter passphare if you add before.\
+7. copy ssh public key 
+    clip < </x/x/.ssh/id_rsa.pub>
