@@ -52,4 +52,4 @@ git diff <branch> --> for showing the diffrence between two branches.
 git merge <branch> --> for merging two branches.
 git remote -v --> for viewing the remote.
 git remote rename origin <name> --> renaming the remote.git convention name is 'upstream' for fork.
-git remote set-url origin <ssh link> --> her we can change our remote connect from https to ssh.
+git remote set-url origin <ssh link> --> here we can change our remote connect from https to ssh (or) changing the remote url
